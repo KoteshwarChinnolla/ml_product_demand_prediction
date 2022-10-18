@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PRODUCT DEMAND PREDICTION</title>
+        <link rel = "icon" href ="img.img.png"
+            type = "image/x-icon">
+        <style>
+            body{
+            background-image: url('https://static.vecteezy.com/system/resources/previews/000/536/275/original/vector-abstract-futuristic-circuit-board-illustration-technology-dark-blue-color-background.jpg');
+            background-size: 1950px 1450px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            }
+        </style>
+    </head>
+<body style="background-color:#358172;" align ="center">
+
+<div align="center">
+    <br>
+    <h1 style="color: red;"> {{d}} </h1><br>
+
+    <h2 style="color: rgb(215, 214, 183);text-align: right;"><center> number of products to be brought in month and year of <span >{{d3}}</span>/<span>{{d2}}</span> is <span style="height:30px; width:50px; background-color: rgb(31, 50, 117);">{{data}}</span></center></h2>
+    <h2 style="color: rgb(138, 193, 194);">u can sell the product till <span style="height:30px; width:50px; background-color: rgb(117, 104, 31);">{{exp_month}}</span>/<span style="height:30px; width:50px; background-color: rgb(117, 116, 31);">{{exp_year}}</span></h1>
+    <h3 style="color: rgb(218, 112, 112);"> this predicted results are accoring to the previous year results</h3>
+
+</div>
+<div align="center">
+    
+    {%if d== 'colgate'%}
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/col_6.png"><br><br>
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>demand of <span>{{d}}</span> in 3 years</center></h2>
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/colgate19.png">
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/colgatepy20.png">
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/colgatepy21.png">
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>month wise demand of <span>{{d}}</span> in 3 years</center></h2>
+    <h2 type="submit" style="height:30px; width:200px; background-color: rgb(133, 198, 204);" ><a href="https://www.colgate.com/en-in/products/toothpaste/colgate-strong-teeth" style="color: rgb(76, 116, 145); shape-outside: margin-box;"><marquee>to know more about product tap here</marquee></a></h2>
+
+
+
+    {%elif d =='gemini  tea powder'%}
+    <img style="background-color: white;" src="https://www.linkpicture.com/q/gemini.png"><br><br>
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>demand of <span>{{d}}</span> in 3 years</center></h2>
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/gemini19.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/gemini20.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/gemini21.png" >
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>month wise demand of <span>{{d}}</span> in 3 years</center></h2>
+    <h2 type="submit" style="height:30px; width:200px; background-color: rgb(133, 198, 204);"  ><a href="https://www.freedomcart.com/freedom-refined-sunflower-oil" style="color: rgb(76, 116, 145); shape-outside: margin-box;"><marquee>to know more about product tap here</marquee></a></h2>
+
+    {%elif d =='suger'%}
+    in kg<img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/suger.png" ><br><br>
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>demand of <span>{{d}}</span> in 3 years</center></h2>
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/suger19.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/suger20.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/suger21.png" >
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>month wise demand of <span>{{d}}</span> in 3 years</center></h2>
+    <h2 type="submit" style="height:30px; width:200px; background-color: rgb(133, 198, 204);"  ><a href="https://tradingeconomics.com/commodity/sugar" style="color: rgb(76, 116, 145); shape-outside: margin-box;"><marquee>to know more about product tap here</marquee></a></h2>
+
+    {%elif d =='freedom sunflower oil'%}
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/oil_4.png" ><br><br>
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>demand of <span>{{d}}</span> in 3 years</center></h2>
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/oil19.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/oil20.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/oil21.png" >
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>month wise demand of <span>{{d}}</span> in 3 years</center></h2>
+    <h2 type="submit" style="height:30px; width:200px; background-color: rgb(133, 198, 204);"  ><a href="https://tradingeconomics.com/commodity/sunflower-oil" style="color: rgb(76, 116, 145); shape-outside: margin-box;"><marquee>to know more about product tap here</marquee></a></h2>
+
+    {%elif d =='life boy soap'%}
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/lofeboy.png" ><br><br>
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>demand of <span>{{d}}</span> in 3 years</center></h2>
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/life19.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/life20.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/life21.png" >
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>month wise demand of <span>{{d}}</span> in 3 years</center></h2>
+    <h2 type="submit" style="height:30px; width:200px; background-color: rgb(133, 198, 204);"  ><a href="https://www.lifebuoy.in/products/bar-soap/lifebuoy-total-10-germ-protection-soap-bar.html" style="color: rgb(76, 116, 145); shape-outside: margin-box;"><marquee>to know more about product tap here</marquee></a></h2>
+
+    {%elif d =='santoor'%}
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/santor.png" ><br><br>
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>demand of <span>{{d}}</span> in 3 years</center></h2>
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/santoor19.png" >
+    <img style="background-color: white; image-rendering: crisp-edges ;" src="https://www.linkpicture.com/q/santoor19.png" >
+    <h2 style="color: rgb(161, 157, 200);text-align: right;"><center>month wise demand of <span>{{d}}</span> in 3 years</center></h2>
+    <h2 type="submit" style="height:30px; width:200px; background-color: rgb(133, 198, 204);"  ><a href="https://www.indiamart.com/wipro-enterprises-pvt-ltd/santoor-soap.html" style="color: rgb(76, 116, 145);"><marquee>to know more about product tap here</marquee></a></h2>
+
+    {%endif%}
+    <br><br>
+
+    <h1 style="color: mistyrose;">time left to sell the product <span>{{years_left}}</span>years/<span>{{months_left}}</span>months</h2>
+    <h3 style="color:#683581;">from the day of checking</h3>
+
+    <h2 type="submit" style="height:30px; width:100px; background-color: rgb(185, 204, 133);"  ><a href="/" style="color: rgb(46, 106, 106);">◀BACK</a></h2>
+
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRODUCT DEMAND PREDICTION</title>
+    <link rel = "icon" href ="img.img.png"
+        type = "image/x-icon">
+    <style>
+        body{
+        background-image: url('https://wallpapercave.com/wp/wp3152280.jpg');
+        background-size: 1920px 1080px;
+        background-repeat: no-repeat;
+        background-attachment: fill;
+        background-position: center;
+        }
+    </style>
+</head>
+          <center>
+
+         <h1 style="color:rgb(27, 86, 187);">PRODUCT DEMAND PREDICTION</h1>
+             <marquee style="background-color: antiquewhite;; "><h3 style="color:rgb(87, 20, 62);background-color: antiquewhite;">Market Analysis is important and crucial for any money making business.
+              In order to sustain or grow the business should know their customers and
+              demand so that they can amend their plans accordingly and be profitable.
+              With this PDF model we're trying to make an analysis of demand for certain
+              products and give an idea about their product demand.</b></marquee>
+
+         <form method="POST" , action="{{url_for('prediction')}}">
+             <br>
+                 <br>
+             <br>
+             <center>
+             <label style="color:rgb(0, 0, 0);"><strong><em><h2><span>product</span></h2></em></strong></label><br><br>
+             <select name="product" style="height:50px; width:300px" >
+                <option value="no" style="width: 60px;">product name</option>
+                <option value="colgate">colgate</option>
+                <option value="gemini  tea powder">gemini  tea powder</option>
+                <option value="freedom sunflower oil">freedom sunflower oil</option>
+                <option value="suger">suger</option>
+                <option value="life boy soap">life boy soap</option>
+                <option value="santoor">santoor</option>
+              </select>
+
+             <label style="color:rgb(0, 0, 0);"><strong><em><h2>product left</h2></em></strong></label><br><br>
+             <input type="number" name="prodleft" style="height:20px; width:300px"><br><br>
+
+             <label style="color:rgb(0, 0, 0);"><strong><em><h2>month</h2></em></strong></label><br><br>
+             <select name="month" style="height:30px; width:300px" >
+                <option value="0">month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+              </select>
+             
+             <h3 style="color: rgb(0, 255, 157);"><input type="checkbox" id="checkbox" name="checkbox" value="Checkbox" disabled><label for="checkbox">check the information</label></h3><br><br
+             <br>
+
+             <button type="submit" value="submit" style="width:130px; background-color: rgb(89, 128, 134);" ><h2 style="color: rgb(255, 255, 255);"><strong>▶SUBMIT✓</strong></h2></button>
+
+         </form>
+          </center>
+
+      </body>
+</html>
